@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://opg.me/ns#">
+<head>
+  <title>Tony Beere</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+  <meta name="title" property="og:title" content="Tony Beere" />
+  <meta name="description" property="og:description" content="I’m a full stack software engineer who recently built Kuri, an open-source Dead-Letter Queue-as-a-Service for distributed applications deployed on an AWS infrastructure." />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="url" property="og:url" content="https://tonybeere.dev" />
+  <meta name="image" property="og:image" content="public/assets/images/android-icon-192x192.png" />
+  <meta name="author" content="Tony Beere" />
+  <!-- ICONS -->
+  <link rel="shortcut icon" type="image/x-icon" href="public/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="public/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="public/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="public/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="public/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="public/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="public/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="public/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="public/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicons/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="public/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="logo-links">
+    <a href="https://github.com/AJBeere" target="_blank">
+      <img class="icon" src="public/assets/icons/git_hub.svg" alt="github logo" id="github-logo">
+    </a>
+    <a href="public/assets/tony_beere_resume.pdf" target="_blank">
+      <img class="icon" src="public/assets/icons/resume.svg" alt="link to Tony Beere resume" id="resume-logo">
+    </a>
+    <a href="https://www.linkedin.com/in/tony-beere-b1275b233/" target="_blank">
+      <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Tony Beere LinkedIn" id="linkedin-logo">
+    </a>
+  </div>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" src="public/assets/images/profile.png" alt="photo of Tony Beere">
+      <h3 id="name">Tony Beere</h3>
+      <p>I’m a full stack software engineer who loves working with a team and embracing challenges.</p>
+      <p>
+        I am proficient with JavaScript, React, Ruby, and PostreSQL and am comfortable with Go, Docker and AWS.
+        I recently built <a class="kuri" href="https://kuri-dlq.github.io/">Kuri</a>, an open-source Dead-Letter Queue-as-a-Service for distributed applications deployed on an AWS infrastructure.
+        <meta name="type" property="og:type" content="website" />
+      </p>
+    </section>
+    <section id="kuri" class="flexbox horz-center">
+      <div id="kuri-title-container" class="flexbox">
+        <a href="https://kuri-dlq.github.io/"><img id="kuri-logo" src="public/assets/images/kuri_logo_color.svg" alt="kuri logo" /></a>
+      </div>
+      <div id="kuri-info-container" class="flexbox">
+        <div>
+          <figure>
+            <img id="kuri-architecture" src="public/assets/images/kuri-final-infra.gif" alt="kuri's Architecture" />
+          </figure>
+        </div>
+        <div class="flexbox horz-center">
+          <p class="kuri-text"><a class="kuri" href="https://kuri-dlq.github.io/">Kuri</a> is an open-source Dead-Letter Queue-as-a-Service for distributed applications deployed on an AWS infrastructure..</p>
+          <p class="kuri-text">Kuri integrates with an applications message queue and provides developers with a dashboard to allow interaction with failed messages. Kuri can alos provide realtime Slack notifications of dead-lettered messages.</p>
+        </div>
+      </div>
+      <div id="kuri-video-container" class="flexbox">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4cJkspwzjDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="flexbox horz-center">
+          <p class="kuri-text">To learn about the engineering problems Kuri addresses, how it works, and the key engineering decisions and tradeoffs made while designing and building Kuri, watch our presentation or click the button below!</p>
+          <a id="kuri-repo-btn" class="btn" target="_blank" href="https://kuri-dlq.github.io/">READ THE CASE STUDY</a>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="flexbox horz-center">
+        <h2>Other projects</h2>
+        <ul class="flexbox vert-center">
+          <li class="list-item">
+            <img src="public/assets/images/Trello-clone.png" alt="Screenshot of Wello application" />
+            <h4>Trello-clone</h4>
+            <p>A Kanban style Trello board clone built with MongoDB, Express, React/Redux and Axios.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/request-bucket.png" alt="Screenshot of HookTester application" />
+            <h4>RequestBucket</h4>
+            <p>A RequestBin like app that allows users to test webhooks. Built with MongoDB, Express, and React.</p>
+          </li>
+          <li>
+            <img src="public/assets/images/shopping-cart.png" alt="Screenshot of airline routes viewer application" />
+            <h4>Shopping Cart</h4>
+            <p>Interactive shopping cart application that allows users to add, update, delete and checkout items.</p>
+          </li>
+        </ul>
+      </section>
+    <section id="contact" class="flexbox horz-center">
+      <h3>Let's Connect!</h3>
+      <h4>I am looking for my next opportunity! Please get in touch if you think I'd be a good fit for your team.</h4>
+      <a id="email" href="mailto:tonybeere87@gmail.com">tonybeere87@gmail.com</a>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="public/assets/tony_beere_resume.pdf" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Tony Beere resume">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AJBeere" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Tony Beere GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tony-beere-b1275b233/" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Tony Beere LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
